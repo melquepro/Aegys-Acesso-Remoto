@@ -23,7 +23,7 @@ type
 const
   PORTA = 3898;
   FOLGAPROCESSAMENTO = 2;
-  SERVIDOR = ''; //'192.168.100.3';
+  SERVIDOR = '192.168.73.10'; //'192.168.100.3';
   // Svr: Razios 'aegys.ddns.net'
   // Svr: Embratel '201.73.143.69';
   // Svr: Diego '177.10.144.78';

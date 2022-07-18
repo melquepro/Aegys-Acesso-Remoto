@@ -23,14 +23,14 @@ object FormConexao: TFormConexao
   object tmrIntervalo: TTimer
     Enabled = False
     OnTimer = tmrIntervaloTimer
-    Left = 256
-    Top = 224
+    Left = 152
+    Top = 240
   end
   object tmrClipboard: TTimer
     Enabled = False
     OnTimer = tmrClipboardTimer
-    Left = 256
-    Top = 280
+    Left = 200
+    Top = 272
   end
   object tmrReconnect: TTimer
     Interval = 5000
@@ -283,7 +283,6 @@ object FormConexao: TFormConexao
             Size.Width = 36.000000000000000000
             Size.Height = 36.000000000000000000
             Size.PlatformDefault = False
-            Visible = True
             object PhMachineIDCopy: TPath
               Align = Client
               Data.Path = {
@@ -423,7 +422,6 @@ object FormConexao: TFormConexao
             Size.Width = 36.000000000000000000
             Size.Height = 36.000000000000000000
             Size.PlatformDefault = False
-            Visible = True
             object PhPasteID: TPath
               Align = Client
               Data.Path = {
@@ -479,7 +477,6 @@ object FormConexao: TFormConexao
             TextSettings.Font.Size = 20.000000000000000000
             TextSettings.FontColor = claWhite
             TextSettings.HorzAlign = Center
-            Visible = True
           end
           object aniBtnLogin: TFloatAnimation
             Duration = 0.500000000000000000
@@ -596,7 +593,6 @@ object FormConexao: TFormConexao
             Size.Width = 36.000000000000000000
             Size.Height = 36.000000000000000000
             Size.PlatformDefault = False
-            Visible = True
             object PhPasswordCopy: TPath
               Align = Client
               Data.Path = {
@@ -629,20 +625,20 @@ object FormConexao: TFormConexao
     end
   end
   object Pm_systemtray: TPopupMenu
-    Left = 260
-    Top = 333
+    Left = 132
+    Top = 325
     object MenuItem1: TMenuItem
       Text = 'Abrir'
     end
   end
   object TmrSystemTray: TTimer
     OnTimer = TmrSystemTrayTimer
-    Left = 116
-    Top = 172
+    Left = 36
+    Top = 188
   end
   object ActionList1: TActionList
-    Left = 256
-    Top = 112
+    Left = 208
+    Top = 48
     object actConnect: TAction
       Text = 'Conectar'
       ShortCut = 13
